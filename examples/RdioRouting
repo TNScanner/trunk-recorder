@@ -1,0 +1,25 @@
+"systems": [
+  {
+    "shortName": "tacn",
+    "apiKey": "YOUR_API_KEY",
+    "systemId": 471471001,        // fallback
+
+    "routes": [
+      {
+        "name": "PriorityPD",
+        "systemId": 2001,
+        "talkgroups": [49801, 49802]
+      },
+      {
+        "name": "PriorityFire",
+        "systemId": 2002,
+        "talkgroups": [49833]
+      },
+      {
+        "name": "GeneralOps",
+        "systemId": 3000,
+        "talkgroups": []           // wildcard = everything else
+      }
+    ]
+  }
+]
